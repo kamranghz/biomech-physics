@@ -1,0 +1,30 @@
+# Data (never commit raw data)
+data/
+
+# Generated outputs (never commit derived/computed files)
+outputs/
+*.npy
+*.npz
+*.pkl
+*.h5
+*.hdf5
+
+# OpenSim outputs
+*.sto
+*.mot
+*.osim
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
